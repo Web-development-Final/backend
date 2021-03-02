@@ -3,4 +3,5 @@ db.sqlite3
 .env
 .devcontainer
 
+migrations/
 __pycache__/
