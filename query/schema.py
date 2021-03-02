@@ -5,7 +5,7 @@ from .models import Event
 class EventType(DjangoObjectType):
     class Meta:
         model = Event
-        fields = ('title',)
+        fields = ('title', 'description')
 
 class Query(graphene.ObjectType):
     all_events = graphene.List(EventType)
